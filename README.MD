@@ -42,4 +42,5 @@ How to create a cron job:
 
 1. crontab -e
   "A file will be open in that file add the following content in it."
-  "* * * * * /path/of/shell/script.sh/"
+
+2. "* * * * * /path/of/shell/script.sh/"
