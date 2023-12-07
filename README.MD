@@ -34,15 +34,12 @@ Transferring the file from the source to the destination.
 
 ## Commands used:
 
-python3 create_data.py
+1. "python3 create_data.py" "run python script" 
 
-chmod 700 create_backup.sh
+2. chmod 700 create_backup.sh "providing the author of the file the permission of read, write and execute the file."
 
-how to create a cron job:
+How to create a cron job:
 
-crontab -e
-
-"A file will be open in that file add the following content in it."
-* * * * * /path/of/shell/script.sh/
-
-We are pushing the code to github.
+1. crontab -e
+  "A file will be open in that file add the following content in it."
+  "* * * * * /path/of/shell/script.sh/"
