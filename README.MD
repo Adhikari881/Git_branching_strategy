@@ -33,3 +33,18 @@ The script is designed to be executed periodically, ensuring regular backups of 
 
 
 The development part if finished by now . The code is ready to for testing.
+
+We executed the python program and created a cron job in which we are executing the shell script after every minute.
+
+Commands used:
+
+python3 create_data.py
+
+chmod 700 create_backup.sh
+
+how to create a cron job:
+
+crontab -e
+
+"A file will be open in that file add the following content in it."
+* * * * * /path/of/shell/script.sh/
