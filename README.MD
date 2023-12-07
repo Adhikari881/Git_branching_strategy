@@ -48,3 +48,5 @@ crontab -e
 
 "A file will be open in that file add the following content in it."
 * * * * * /path/of/shell/script.sh/
+
+We are pushing the code to github.
